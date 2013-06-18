@@ -1,17 +1,21 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: garamond;
 }
 
 .wrapper {
-	top: 0px;
-	width: 1440px;
+	/*top: 0;*/
+	width:100%;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
 	height: 1945px; 
+	margin: 0;
 }
 
 .navbar {
-	background-color: #A60DA6;
+	background-color: #85007A;
 	height: 55px;
 	padding-top: 20px;
 }
@@ -19,7 +23,7 @@
 .navbar p {
 	display: inline;
 	color: #D2D0D1;
-	padding-left: 20%;
+	padding-left: 5%;
 	font-size: 23px;
 	font-weight: 800;
 }
@@ -45,13 +49,14 @@
 
 .chunkone {
 	background-color: #D2D0D1;
-	width: 1423px;
-	height: 632px
+	/*width: 1440px;*/
+	height: 632px;
+	margin: 0;
 }
 
 
 .elevator-pitch-copy {
-	width: 37%;
+	width: 38%;
 	color: #06266F;
 	float: left;
 	margin: 50px 0px 0px 70px;
@@ -69,12 +74,12 @@
 }
 
 .Byline a:link {
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 
 .Byline a:visited {
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 
@@ -83,23 +88,18 @@
 	font-size:16px;
 }
 
-.byline a:link{
-	text-decoration: none !important;
-}
 
-
-
-#India-cover-cropped {
-	width: 38%;
+/*#India-cover-cropped {
+	width: 35%;
 	float: right;
 	border:1px solid #;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30;
-	margin-top: 15px;
-	margin-right: 70px;
+	margin-top: 40px;
+	margin-right: 180px;
 }
-
+*/
 
 .buy-now-button {
 	width: 200px;
@@ -123,29 +123,49 @@
 }
 
 .buy-now-button a:active {
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 .buy-now-button a:visited {
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 .buy-now-button a:link {
-	text-decoration: none !important;
+	text-decoration: none;
 	color: #06266F;
 }
 
 #price-copy{
 	color: #06266F;
-	float: left;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	font-size: 18px;
 }
 
 #pdf {
 	font-size: 14px;
+	padding-bottom: 50px;
 }
+
+
+#testamonial {
+	font-size: 19px;
+	color: #85007A;
+	
+}
+
+#India-cover-cropped {
+	width: 35%;
+	float: right;
+	border:1px solid #;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30;
+	margin-top: 40px;
+	margin-right: 180px;
+}
+
+
 
 .chunktwo {
 	background-color: #06266F;
@@ -157,7 +177,7 @@
 	width: 49%;
 	color: #D2D0D1;
 	padding-left: 420px;
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 .top-five h2 {
@@ -172,48 +192,68 @@
 	line-height: 40px;
 }
 
-.top-five span {
-	color: #A60DA6;
-}
-
 .chunkthree {
 	background-color: #D2D0D1;
 	height: 632px;
+	margin: auto;
 }
 
-#tina-bio{
+#tina-bio {
 	width: 300px;
-	margin: 50px;
+	margin: 50px 30px 0px 105px;
 	float:left;
+	color: #06266F;
 	
 }
 
 #tina-bio-photo {
-	border-radius: 30px;
 	width: 300px;
+	border-radius: 30px;
 	padding-bottom: 20px;
 }
 
-#story-text {
-	color: #06266F;
-	font-size: 18px;
+#bio-text {
+	width: 300px;
+	font-size: 20px;
 }
 
-#bike {
-	width: 300px;
-	border-radius: 30px;
-	margin: 50px;
+#bike-story {
+	width: 350px;
+	margin: 50px 30px 0px 30px;
 	float:left;
+	color: #06266F;
+}
+
+#bike-photo {
+	width: 350px;
+	border-radius: 30px;
+	padding-bottom: 20px;	
+}
+
+#bike-text {
+	width: 350px;
+	font-size: 20px;
+}
+
+#map-story {
+	width: 300px;
+	margin: 50px 30px 0px 30px;
+	float:left;
+	color: #06266F;
 }
 
 #map-embed {
 	width: 300px;
-	float:left;
-	margin: 50px;
 	border-radius: 30px;
 	/*How do I round the google map?*/
 }
 
-/*Can I make chunk three spacing more even?*/
+#map-text {
+	width: 350px;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+/*Can I make chunk three spacing more even?
 /*What I did I do wrong with the a:hover, a:link stuff? Used important! as a stop-gap
 font awesome icons*/
