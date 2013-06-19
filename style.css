@@ -18,6 +18,9 @@
 	background-color: #85007A;
 	height: 55px;
 	padding-top: 20px;
+	position: fixed;
+	box-shadow: 0px 0px 2px 2px;
+	width: 100%;
 }
 
 .navbar p {
@@ -52,6 +55,7 @@
 	/*width: 1440px;*/
 	height: 632px;
 	margin: 0;
+	padding-top: 80px;
 }
 
 
@@ -175,7 +179,7 @@
 
 
 #India-cover-cropped {
-	width: 32.5%;
+	width: 31%;
 	float: right;
 	border:1px solid #;
 	-webkit-border-radius: 30px;
