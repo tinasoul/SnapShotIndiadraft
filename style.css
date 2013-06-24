@@ -1,7 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: garamond;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -26,9 +29,10 @@
 .navbar p {
 	display: inline;
 	color: #D2D0D1;
-	padding-left: 5%;
+	float:right;
 	font-size: 23px;
 	font-weight: 800;
+	padding-right: 5%;
 }
 
 .navbar a:link {
@@ -64,7 +68,6 @@
 	color: #06266F;
 	float: left;
 	margin: 50px 0px 0px 70px;
-	font-family: garamond;
 }
 
 
@@ -73,37 +76,11 @@
 }
 
 
-.Byline {
-	padding: 50px 0px 0px 0px;
-}
-
-.Byline a:link {
-	text-decoration: none;
-}
-
-
-.Byline a:visited {
-	text-decoration: none;
-}
-
-
 .elevator-pitch-copy span {
 	color: #1240AB;
-	font-size:16px;
+	font-size: 16px;
 }
 
-
-/*#India-cover-cropped {
-	width: 35%;
-	float: right;
-	border:1px solid #;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30;
-	margin-top: 40px;
-	margin-right: 180px;
-}
-*/
 
 .buy-now-button {
 	width: 200px;
@@ -120,7 +97,7 @@
 
 
 .buy-now-button h2 {
-	padding-top: 5px;
+	padding-top: 4px;
 	text-align: center;
 	color: #06266F;
 
@@ -147,14 +124,29 @@
 }
 
 #pdf {
-	font-size: 14px;
-	padding-bottom: 50px;
+	font-size: 13px;
+	padding-top: 10px;
 }
 
+
+.Byline {
+	padding: 20px 0px 0px 0px;
+}
+
+.Byline a:link {
+	text-decoration: none;
+}
+
+
+.Byline a:visited {
+	text-decoration: none;
+}
 
 #testamonial {
 	font-size: 19px;
 	color: #85007A;
+	padding: 70px 0px 0px 0px;
+}
 
 }
 
@@ -162,7 +154,6 @@
 	text-decoration: none;
 
 }
-
 
 
 #testamonial a:link {
@@ -177,7 +168,6 @@
 }
 
 
-
 #India-cover-cropped {
 	width: 31%;
 	float: right;
@@ -187,7 +177,6 @@
 	margin-right: 180px;
 	margin-bottom: 5px;
 }
-
 
 
 .chunktwo {
