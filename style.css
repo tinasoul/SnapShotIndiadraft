@@ -8,7 +8,6 @@
 }
 
 .wrapper {
-	/*top: 0;*/
 	width:100%;
 	margin:auto;
 	min-width:600px;
@@ -22,9 +21,14 @@
 	height: 55px;
 	padding-top: 20px;
 	position: fixed;
+/*When you jump from What's inside to chunktwo fixed navbar disturbs the text*/
 	box-shadow: 0px 0px 2px 2px;
 	width: 100%;
 }
+
+/*#logo {
+	float:left;
+}*/
 
 .navbar p {
 	display: inline;
@@ -48,9 +52,8 @@
 .navbar a:hover {
 	box-shadow: inset 0px 0px 8px black;
 	padding: 13px;
-	color: #D2D0D1;
 	border-radius: 30px;
-	background-color: #950C95;
+	background-color: #7a0070;
 }
 
 
@@ -78,7 +81,6 @@
 
 .elevator-pitch-copy span {
 	color: #1240AB;
-	font-size: 16px;
 }
 
 
@@ -109,6 +111,7 @@
 
 .buy-now-button a:visited {
 	text-decoration: none;
+	color: #06266F;
 }
 
 .buy-now-button a:link {
@@ -169,13 +172,13 @@
 
 
 #India-cover-cropped {
-	width: 31%;
+	width: 30%;
 	float: right;
 	border:1px solid #;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	margin-right: 180px;
-	margin-bottom: 5px;
+	/*margin-bottom: 5px;*/
 }
 
 
